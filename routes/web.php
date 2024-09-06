@@ -3,7 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/inicial', function () {
+Route::get('/inicialnpn', function () {
     return view('inicial');
 });
 

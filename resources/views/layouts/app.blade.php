@@ -29,7 +29,10 @@
 
             <!-- Page Content -->
             <main>
-                {{ $slot }}
+                @yield('content')
+            </main>
+            <main>
+                @yield('idk-content')
             </main>
         </div>
     </body>

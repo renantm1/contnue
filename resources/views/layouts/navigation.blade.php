@@ -22,6 +22,9 @@
                     <x-nav-link :href="route('imc')" :active="request()->routeIs('imc')">
                         {{ __('IMC') }}
                     </x-nav-link>
+                    <x-nav-link :href="route('psico')" :active="request()->routeIs('psico')">
+                        {{ __('Ajuda mental') }}
+                    </x-nav-link>
                 </div>
             </div>
 
